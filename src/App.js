@@ -16,7 +16,7 @@ class App extends Component {
     }).then(data => {
       let movies = data.map((movie) => {
         return (
-          <Col xs={6} md={4} lg={3} key={movie.id}>
+          <Col xs={12} sm={6} md={4} lg={3} key={movie.id}>
             <Item item={movie}/>
           </Col>
         );

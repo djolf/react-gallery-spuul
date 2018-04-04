@@ -6,3 +6,11 @@ body {
 img {
   max-width: 100%;
 }
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display:         flex;
+  flex-wrap: wrap;
+}

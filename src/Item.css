@@ -1,3 +1,43 @@
 .container {
+     /*overwrite bootstrap container width  */
     width: 100%;
+}
+
+.item-container {
+    margin: 10px 0px 10px 0px;
+}
+
+.title-text {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 6px 0px 0px 0px;
+}
+
+.icon {
+    width:1.2em;
+    margin:0px 0px 0px 5px;
+}
+
+.detail-container {
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.star {
+    width:1em;
+}
+
+.detail-text {
+    font-size: 0.9em;
+}
+
+.stars {
+    margin:0px 5px 0px 10px;
+}
+
+.duration-text {
+    color:gray;
+    font-size: 0.8em;
+    margin-left:8px;
 }
